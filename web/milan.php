@@ -18,7 +18,7 @@
     
 </div>
 
-<div id="photo">
+<div class="photo">
     <img src="myimage.jpg" alt="My picture">
     <div class="container">
     <p>Harriman Trail, Idaho</p>
