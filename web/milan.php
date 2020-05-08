@@ -24,14 +24,19 @@
 
 <div class="card">
   <div class="header">
-    <h1>1</h1>
+    <h1>
+        <?php
+            $t = time();
+            echo(date(d,$t));
+        ?>
+    </h1>
   </div>
 
   <div class="container">
-    <<?php
+    <?php
             $t=time();
             echo("<p>");
-            echo(date("Y-m-d",$t));
+            echo(date("m-d-Y",$t));
             echo("</p>");
         ?>
   </div>
