@@ -10,10 +10,7 @@
     <ul>
         <li><a href="milan.pho">Home</a></li>
         <li><a href="assignments.php">Assignments</a></li>
-        <?php
-            $t=time();
-            echo(date("Y-m-d",$t));
-        ?>
+        
     </ul>
     
 </div>
@@ -25,14 +22,25 @@
   </div>
 </div>
 
+<div class="card">
+  <div class="header">
+    <h1>1</h1>
+  </div>
+
+  <div class="container">
+    <<?php
+            $t=time();
+            echo("<p>");
+            echo(date("Y-m-d",$t));
+            echo("/p>");
+        ?>
+  </div>
+</div>
+
 <div id="desc">
-    <ul>
-        <li>Name: Milan Karki</li>
-        <li>From: Nepal</li>
-        <li>Major: Computer Science</li>
-        
-    </ul>
-    
+        <p>Name: Milan Karki</p>
+        <p>From: Nepal</p>
+        <p>Major: Computer Science</p>
 </div>
 
 <body>
