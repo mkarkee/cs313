@@ -24,6 +24,17 @@
     <p>Harriman Trail, Idaho</p>
   </div>
 </div>
+
+<div id="desc">
+    <ul>
+        <li>Name: Milan Karki</li>
+        <li>From: Nepal</li>
+        <li>Major: Computer Science</li>
+        
+    </ul>
+    
+</div>
+
 <body>
     
 </body>
