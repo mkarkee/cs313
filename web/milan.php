@@ -15,31 +15,34 @@
     
 </div>
 
-<div class="photo">
-    <img src="myimage.jpg" alt="My picture" style="width:100%"> 
+<div id="wrapper">
+    <div class="photo">
+        <img src="myimage.jpg" alt="My picture" style="width:100%"> 
+        <div class="container">
+        <p>Harriman Trail, Idaho</p>
+    </div>
+    </div>
+
+
+    <div class="card">
+    <div class="header">
+        <h1>
+            <?php
+                $t = time();
+                echo(date(d,$t));
+            ?>
+        </h1>
+    </div>
+
     <div class="container">
-    <p>Harriman Trail, Idaho</p>
-  </div>
-</div>
-
-<div class="card">
-  <div class="header">
-    <h1>
         <?php
-            $t = time();
-            echo(date(d,$t));
-        ?>
-    </h1>
-  </div>
-
-  <div class="container">
-    <?php
-            $t=time();
-            echo("<p>");
-            echo(date("m-d-Y",$t));
-            echo("</p>");
-        ?>
-  </div>
+                $t=time();
+                echo("<p>");
+                echo(date("m-d-Y",$t));
+                echo("</p>");
+            ?>
+    </div>
+    </div>
 </div>
 
 <div id="desc">

@@ -29,8 +29,13 @@
     background-color: #111;
   }
 
+  #wrapper {
+      display: flex;
+  }
+
   div.photo {
-      margin-top: 30px;
+    margin-top: 30px;
+    flex: 0 0 65%;
     width: 550px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
@@ -41,6 +46,7 @@
   }
 
   div.card {
+      flex: 1;
     width: 250px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
