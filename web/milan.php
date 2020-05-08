@@ -32,7 +32,7 @@
             $t=time();
             echo("<p>");
             echo(date("Y-m-d",$t));
-            echo("/p>");
+            echo("</p>");
         ?>
   </div>
 </div>
