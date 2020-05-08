@@ -19,7 +19,7 @@
 </div>
 
 <div class="photo">
-    <img src="myimage.jpg" alt="My picture">
+    <img src="myimage.jpg" alt="My picture" style="width:100%"> 
     <div class="container">
     <p>Harriman Trail, Idaho</p>
   </div>
