@@ -62,8 +62,9 @@
   }
 
   #desc {
-      margin-top: 50px;
+      margin-top: 200px;
       margin-left: 30%;
-      font-size: large;
-      text-shadow: 2px 2px 8px #FF0000;
+      font-size: larger;
+      text-shadow: 2px 2px 4px #FF0000;
+      
   }
