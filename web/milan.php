@@ -29,7 +29,7 @@
         <h1>
             <?php
                 $t = time();
-                echo(date(d,$t));
+                echo(date("M d",$t));
             ?>
         </h1>
     </div>
