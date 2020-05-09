@@ -17,10 +17,7 @@
 
 
 
-    <div class="container">
-       <p>COMING SOON</p>
-    </div>
-    </div>
+    <p id="soon"> Coming Soon...</p>
 
 
 
