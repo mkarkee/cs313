@@ -8,7 +8,7 @@
 </head>
 <div id="navigationBar">
     <ul>
-        <li><a href="milan.pho">Home</a></li>
+        <li><a href="milan.php">Home</a></li>
         <li><a href="assignments.php">Assignments</a></li>
         
     </ul>
