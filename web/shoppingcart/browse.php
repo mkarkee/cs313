@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Assignment 8</title>
+    <title>The Watch Shop</title>
 </head>
 <body>
     <header>
         <h1>The Watch Shop</h1>
     </header>
-    <form onsubmit="return validAll();" action="assign12.php" method="POST">
+    <form onsubmit="return validAll();" action="checkout.php" method="POST">
     <input type="text" placeholder="First Name" name="first_name" onblur="validFirstName(this)" required>
     <span id="firstNameError"></span>
     <br>
