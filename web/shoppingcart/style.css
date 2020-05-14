@@ -54,7 +54,7 @@ span {
 }
 
 
-input[type="button"] {
+input[type="submit"] {
     margin-left: 20px;
     background-color: green;
     border: none;

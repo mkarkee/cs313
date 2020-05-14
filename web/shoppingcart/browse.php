@@ -1,3 +1,15 @@
+<?php
+
+    session_start();
+    $name = $_POST['name'];
+    $price = $_POST['price'];
+    $quantity = $_POST['qty'];
+
+    $product = array($name,$price, $quantity);
+    $_SESSION[$name] = $product;
+    print_r($product);
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,20 +22,24 @@
     <header>
         <h1>The Watch Shop</h1>
     </header>
-    <form onsubmit="return validAll();" action="checkout.php" method="POST">
+    
     
     <br>
+    
+
     <table id="productCost">
-        <tr>
-            <th>Add To Cart</th>
-            <th>Item</th>
-            <th>Price(USD$)</th>
-        </tr>
-        <tr>
-            <td><input type="button" class ="add" name="item[]" value="Add to Cart" onclick="totalCost();"></td>
-            <td><img class="watch" src="images/1.jpg" alt="watch one"></td>
-            <td id="watchOne">199.99</td>
-        </tr>
+        <form action="browse.php" method="post">
+            <tr>
+                
+                <td><img class="watch" src="images/1.jpg" alt="watch one"></td>
+                <td id="watchOne">199.99</td>
+                <td><input type="text" name="qty"></td>
+                <input type="hidden" name="name" value="Watch one">
+                <input type="hidden" name="price" value="199.99">
+                <td><input type="submit" name="addCart" value="Add to Cart"></td>
+                
+            </tr>
+        </form>
         <tr>
             <td><input type="button" class="add" name="item[]" value="Add to Cart" onclick="totalCost();"></td>
             <td><img class="watch" src="images/2.jpg" alt="watch two"></td>   
