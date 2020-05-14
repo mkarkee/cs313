@@ -53,21 +53,8 @@ span {
     color: red;
 }
 
-.add {
-    margin-left: 20px;
-    background-color: green;
-    border: none;
-    color: white;
-    padding: 15px 22px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 8px;
-    box-shadow: 10px 10px 5px black;
-}
 
-input[type="submit"] {
+input[type="button"] {
     margin-left: 20px;
     background-color: green;
     border: none;
@@ -79,6 +66,7 @@ input[type="submit"] {
     font-size: 16px;
     border-radius: 8px;
     box-shadow: 10px 10px 5px black;
+    transform: scale(3.5);
 }
 
 input[type="reset"] {
@@ -121,9 +109,7 @@ tr:nth-child(even) {
     background-color: rgb(55, 55, 55);
 }
 
-input[type=checkbox] {
-    transform: scale(3.5);
-}
+
 
 input[type=radio] {
     transform: scale(3.5);
