@@ -29,7 +29,7 @@
             <th>Price(USD$)</th>
         </tr>
         <tr>
-            <td><input type="checkbox" class ="check" name="item[]" value="Watch Type 1: $199.99" onclick="totalCost();"></td>
+            <td><input type="button" class ="check" name="item[]" value="Watch Type 1: $199.99" onclick="totalCost();"></td>
             <td><img class="watch" src="images/1.jpg" alt="watch one"></td>
             <td id="watchOne">199.99</td>
         </tr>
@@ -55,22 +55,9 @@
         </tr>
     </table>
     <br>
-    <div id="cards">
-        <input type="radio" name="card" value ="Visa" required><label>Visa</label><br>
-        <input type="radio" name="card" value="Mastercard"><label>Mastercard</label><br>
-        <input type="radio" name="card" value="American Express"><label>American Express</label>
-    </div>
-    <br>
-    <input type="text" name="credit_card" placeholder="Credit Card #" maxlength="20" size="20" onblur= "isCreditValid(this)" required>
-    <span id="CreditError"></span>
-    <br>
-    <input type="text" name="exp_date" placeholder="Expiration Date" onblur="isExpValid(this)" required>
-    <span id="expError"></span>
     
-    <br>
     <div>
-        <input type="submit" value="Purchase" name="validate" />
-        <input type="reset" name="reset" value="Reset">
+        <input type="submit" value="Show Cart" name="validate" />
     </div>
 </form>
 <footer>
