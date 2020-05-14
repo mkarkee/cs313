@@ -29,22 +29,22 @@
             <th>Price(USD$)</th>
         </tr>
         <tr>
-            <td><input type="button" class ="check" name="item[]" value="Watch Type 1: $199.99" onclick="totalCost();"></td>
+            <td><input type="button" class ="check" name="item[]" value="Add to Cart" onclick="totalCost();"></td>
             <td><img class="watch" src="images/1.jpg" alt="watch one"></td>
             <td id="watchOne">199.99</td>
         </tr>
         <tr>
-            <td><input type="checkbox" class="check" name="item[]" value="Watch Type 2: $299.99" onclick="totalCost();"></td>
+            <td><input type="button" class="check" name="item[]" value="Add to Cart" onclick="totalCost();"></td>
             <td><img class="watch" src="images/2.jpg" alt="watch two"></td>   
             <td id="watchTwo">299.99</td>        
         </tr>
         <tr>
-            <td><input type="checkbox" class="check" name="item[]" value="Watch Type 3: $99.99" onclick="totalCost();"></td>
+            <td><input type="button class="check" name="item[]" value="Add to Cart" onclick="totalCost();"></td>
             <td><img class="watch" src="images/3.jpg" alt="watch three"></td>
             <td id="watchThree">99.99</td>           
         </tr>
         <tr>
-            <td><input type="checkbox" class="check" name="item[]" value="Watch Type 4: $249.99" onclick="totalCost();"></td>
+            <td><input type="button" class="check" name="item[]" value="Add to Cart" onclick="totalCost();"></td>
             <td><img class="watch" src="images/4.webp" alt="watch four"></td>
             <td id="watchFour">249.99</td>            
         </tr>
