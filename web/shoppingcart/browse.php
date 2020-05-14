@@ -11,16 +11,7 @@
         <h1>The Watch Shop</h1>
     </header>
     <form onsubmit="return validAll();" action="checkout.php" method="POST">
-    <input type="text" placeholder="First Name" name="first_name" onblur="validFirstName(this)" required>
-    <span id="firstNameError"></span>
-    <br>
-    <input type="text" placeholder="Last Name" name="last_name" onblur="validLastName(this)" required>
-    <span id="lastNameError"></span>
-    <br>
-    <textarea placeholder="Address" name="address" required></textarea>
-    <br>
-    <input type="text" placeholder="Phone Numer" name="phone_number" maxlength="12" size="12" onchange="validPhoneNumber(this)" required>
-    <span id="phoneError"></span>
+    
     <br>
     <table id="productCost">
         <tr>
@@ -60,9 +51,6 @@
         <input type="submit" value="Show Cart" name="validate" />
     </div>
 </form>
-<footer>
-    <script src="script.js"></script>
-    @2019
-</footer>
+
 </body>
 </html>
