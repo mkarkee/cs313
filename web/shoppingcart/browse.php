@@ -64,7 +64,7 @@
     <br>
     
     <div>
-        <input type="submit" value="Show Cart" name="validate" />
+        <a href="cart.php">Go to Cart</a>
     </div>
 </form>
 
