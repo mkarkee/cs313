@@ -20,12 +20,29 @@
         <form action="session.php" method="post">
             <tr>
                 
-                <td><img class="watch" src="images/1.jpg" alt="watch one"></td>
-                <td id="watchOne">199.99</td>
-                <td><input type="text" name="qty"></td>
-                <input type="hidden" name="name" value="Watch one">
-                <input type="hidden" name="price" value="199.99">
-                <td><input type="submit" name="addCart" value="Add to Cart"></td>
+                <td>
+                    <img class="watch" src="images/1.jpg" alt="watch one">
+                    <label id="watchOne">199.99</label>
+                    <input type="text" name="qty">
+                    <input type="hidden" name="name" value="Watch one">
+                    <input type="hidden" name="price" value="199.99">
+                    <input type="submit" name="addCart" value="Add to Cart">
+                </td>
+                
+            
+        </form>
+
+        <form action="session.php" method="post">
+            
+                
+                <td>
+                    <img class="watch" src="images/2.jpg" alt="watch two">
+                    <label id="watchTwo">299.99</label>   
+                    <input type="text" name="qty">
+                    <input type="hidden" name="name" value="Watch Two">
+                    <input type="hidden" name="price" value="299.99">
+                    <input type="submit" name="addCart" value="Add to Cart">
+                </td>
                 
             </tr>
         </form>
@@ -33,38 +50,27 @@
         <form action="session.php" method="post">
             <tr>
                 
-                <td><img class="watch" src="images/2.jpg" alt="watch two"></td>   
-                <td id="watchTwo">299.99</td>   
-                <td><input type="text" name="qty"></td>
-                <input type="hidden" name="name" value="Watch Two">
-                <input type="hidden" name="price" value="299.99">
-                <td><input type="submit" name="addCart" value="Add to Cart"></td>
+                <td>
+                    <img class="watch" src="images/3.jpg" alt="Watch Three">
+                    <label id="watchThree">99.99</label>  
+                    <input type="text" name="qty">
+                    <input type="hidden" name="name" value="Watch Three">
+                    <input type="hidden" name="price" value="99.99">
+                    <input type="submit" name="addCart" value="Add to Cart">
+                </td>
                 
-            </tr>
-        </form>
-
-        <form action="session.php" method="post">
-            <tr>
-                
-                <td><img class="watch" src="images/3.jpg" alt="Watch Three"></td>
-                <td id="watchThree">99.99</td>  
-                <td><input type="text" name="qty"></td>
-                <input type="hidden" name="name" value="Watch Three">
-                <input type="hidden" name="price" value="99.99">
-                <td><input type="submit" name="addCart" value="Add to Cart"></td>
-                
-            </tr>
         </form>
         
         <form action="session.php" method="post">
-            <tr>
                 
-                <td><img class="watch" src="images/4.webp" alt="watch four"></td>
-                <td id="watchFour">249.99</td> 
-                <td><input type="text" name="qty"></td>
-                <input type="hidden" name="name" value="Watch Four">
-                <input type="hidden" name="price" value="249.99">
-                <td><input type="submit" name="addCart" value="Add to Cart"></td>
+                <td>
+                    <img class="watch" src="images/4.webp" alt="watch four">
+                    <label id="watchFour">249.99</label>
+                    <input type="text" name="qty">
+                    <input type="hidden" name="name" value="Watch Four">
+                    <input type="hidden" name="price" value="249.99">
+                    <input type="submit" name="addCart" value="Add to Cart">
+                </td>
                 
             </tr>
         </form>
