@@ -1,0 +1,89 @@
+#countries {
+    display: flex;
+    font-size: 0.8in;
+    justify-content: space-between;
+    padding:30px;
+}
+
+strong {
+    text-shadow: 1px 1px black;
+    transition: transform .5s;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+strong:hover {
+    transform: scale(1.2);
+}
+
+#content {
+    margin-left:30%;
+    font-size: 30px;
+
+}
+
+#part2 {
+    font-size: 30px;
+    margin-left: 5%;
+}
+
+input[type=text] {
+    height: 0.3in;
+    padding: 4px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 3in;
+    font-size: 0.22in;
+}
+
+
+#button1 {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: transform 1s;
+}
+#button1:hover {
+    background-color: rgb(39, 35, 35);
+    transform: scale(1.03);
+}
+
+#errorFile {
+    color: red;
+    font-style: italic;
+}
+
+#content2 {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 95%;
+    margin-top:20px;
+    display: none;
+  }
+  
+  td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+tr:nth-child(even){background-color: #f2f2f2;}
+tr:hover {background-color: #ddd;}
+  
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: black;
+    color: white;
+  }
+
+::placeholder {
+    color: rgb(240, 233, 233);
+    font-size: 0.27in;
+    
+}
