@@ -11,6 +11,9 @@
     <title>Document</title>
 </head>
 <body>
+	<header>
+        <h1>The Watch Shop</h1>
+    </header>
     <table id="content">
             <?php 
                 foreach($_SESSION as $product) {
