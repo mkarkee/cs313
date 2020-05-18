@@ -13,15 +13,14 @@
     <table>
         <tr>
             <?php 
-            <td>
                 foreach($_SESSION as $product) {
+                    echo "<td>";
                     echo $product[0];
                     echo "</td>";
                     echo "<td>";
                     echo $product[1];
+                    echo "</td>";
                 }
-            </td>
-
             ?>
         </tr>
     </table>
