@@ -11,15 +11,14 @@
 </head>
 <body>
     <table>
-        <tr>
             <?php 
                 foreach($_SESSION as $product) {
-                    echo "<td>";
+                    echo "<tr><td>";
                     echo $product[0];
                     echo "</td>";
                     echo "<td>";
                     echo $product[1];
-                    echo "</td>";
+                    echo "</td></tr>";
                 }
             ?>
         </tr>
