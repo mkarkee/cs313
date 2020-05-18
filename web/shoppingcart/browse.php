@@ -14,7 +14,13 @@
         <h1>The Watch Shop</h1>
     </header>
     
-    
+    <div>
+        <a href="cart.php">Go to Cart</a>
+        <?php
+            echo count($_SESSION);
+        ?>
+    </div>
+
     <br>
     
 
@@ -77,12 +83,7 @@
     </table>
     <br>
     
-    <div>
-        <a href="cart.php">Go to Cart</a>
-        <?php
-            echo count($_SESSION);
-        ?>
-    </div>
+    
 </form>
 
 </body>

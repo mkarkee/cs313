@@ -23,5 +23,7 @@
             ?>
         </tr>
     </table>
+    <a href="browse.php">Continue Shopping  </a>
+    <a href="checkout.php">Checkout</a>
 </body>
 </html>
