@@ -10,10 +10,22 @@
     <title>Document</title>
 </head>
 <body>
-    <?php 
-        foreach($_SESSION as $product) {
-            echo $product[1];
-        }
-    ?>
+    <table>
+        <tr>
+            <?php 
+            <td>
+                foreach($_SESSION as $product) {
+                    echo $product[0];
+                }
+            </td>
+            <td>
+                foreach($_SESSION as $product) {
+                    echo $product[1];
+                }
+            </td>
+
+            ?>
+        </tr>
+    </table>
 </body>
 </html>
