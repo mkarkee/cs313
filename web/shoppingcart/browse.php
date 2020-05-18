@@ -14,7 +14,7 @@
         <h1>The Watch Shop</h1>
     </header>
     
-    <div>
+    <div id="cart">
         <a href="cart.php">Go to Cart</a>
         <?php
             echo count($_SESSION);
