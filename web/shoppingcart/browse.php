@@ -1,6 +1,5 @@
 <?php
     session_start();
-    print_r(count($_SESSION));
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -80,6 +79,9 @@
     
     <div>
         <a href="cart.php">Go to Cart</a>
+        <?php
+            echo count($_SESSION);
+        ?>
     </div>
 </form>
 
