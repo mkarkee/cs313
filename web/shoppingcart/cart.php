@@ -16,10 +16,8 @@
             <td>
                 foreach($_SESSION as $product) {
                     echo $product[0];
-                }
-            </td>
-            <td>
-                foreach($_SESSION as $product) {
+                    echo "</td>";
+                    echo "<td>";
                     echo $product[1];
                 }
             </td>
