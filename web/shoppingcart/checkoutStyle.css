@@ -39,7 +39,7 @@ h1 {
 tr:nth-child(even){background-color: #f2f2f2;}
 tr:hover {background-color: #ddd;}
   
-th {
+#total {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;

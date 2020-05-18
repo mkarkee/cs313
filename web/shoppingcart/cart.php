@@ -23,11 +23,12 @@
                     echo "</td>";
                     echo "<td>";
 					$total = $total + $product[1];
+					echo "$";
                     echo $product[1];
                     echo "</td></tr>";
                 }
            
-				echo "<tr><td>Total</td>";
+				echo "<tr id="total"><td>Total</td>";
 				echo "<td>";
 				echo $total;
 				echo "</td></tr>";
