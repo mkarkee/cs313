@@ -22,10 +22,8 @@
 
 #content {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
     width: 95%;
     margin-top:20px;
-    display: none;
   }
   
   td, th {
