@@ -17,7 +17,7 @@ body   {
     
 }
 label {
-	color: black;
+	font-color: black;
 }
 
 form {
@@ -98,11 +98,6 @@ tr:nth-child(even) {
 
 
 
-label {
-    color: white;
-    font-size: 30px;
-    margin-left: 25px;
-}
 
 
 

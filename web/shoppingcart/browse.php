@@ -29,7 +29,7 @@
             <tr>
                 
                 <td>
-                    <img class="watch" src="images/1.jpg" alt="watch one">
+                    <img class="watch" src="images/1.jpg" alt="watch one"><br>
                     <label id="watchOne">199.99</label>
                     <input type="hidden" name="name" value="Watch one">
                     <input type="hidden" name="price" value="199.99"><br>
@@ -43,7 +43,7 @@
             
                 
                 <td>
-                    <img class="watch" src="images/2.jpg" alt="watch two">
+                    <img class="watch" src="images/2.jpg" alt="watch two"><br>
                     <label id="watchTwo">299.99</label>   
                     <input type="hidden" name="name" value="Watch Two">
                     <input type="hidden" name="price" value="299.99"><br>
@@ -57,7 +57,7 @@
             <tr>
                 
                 <td>
-                    <img class="watch" src="images/3.jpg" alt="Watch Three">
+                    <img class="watch" src="images/3.jpg" alt="Watch Three"><br>
                     <label id="watchThree">99.99</label>  
                     <input type="hidden" name="name" value="Watch Three"><br>
                     <input type="hidden" name="price" value="99.99">
@@ -69,7 +69,7 @@
         <form action="session.php" method="post">
                 
                 <td>
-                    <img class="watch" src="images/4.webp" alt="watch four">
+                    <img class="watch" src="images/4.webp" alt="watch four"><br>
                     <label id="watchFour">249.99</label>
                     <input type="hidden" name="name" value="Watch Four">
                     <input type="hidden" name="price" value="249.99"><br>
