@@ -16,6 +16,9 @@ body   {
     margin: 0;
     
 }
+label {
+	color: black;
+}
 
 form {
     display: flex;
@@ -50,7 +53,6 @@ input[type="submit"] {
     font-size: 16px;
     border-radius: 8px;
     box-shadow: 10px 10px 5px black;
-    transform: scale(1.5);
 }
 
 input[type="reset"] {
