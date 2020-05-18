@@ -20,7 +20,7 @@ label {
 	font-color: black;
 }
 
-form {
+#productCost {
     display: flex;
     flex-direction: column;
     align-items: center;
