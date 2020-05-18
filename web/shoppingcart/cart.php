@@ -22,7 +22,6 @@
                     echo "</td></tr>";
                 }
             ?>
-
     </table>
     <a href="browse.php" id="button1">Continue Shopping  </a>
     <a href="checkout.php">Checkout</a>
