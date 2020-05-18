@@ -26,11 +26,12 @@
                     echo $product[1];
                     echo "</td></tr>";
                 }
-            ?>
-			echo "<tr><td>Total</td>";
-			echo "<td>";
-			echo $total;
-			echo "</td></tr>";
+           
+				echo "<tr><td>Total</td>";
+				echo "<td>";
+				echo $total;
+				echo "</td></tr>";
+			?>
     </table>
     <div id="buttons">
     <a href="browse.php" id="button1">Continue Shopping  </a>
