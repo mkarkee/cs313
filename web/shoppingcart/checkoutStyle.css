@@ -27,7 +27,7 @@ input[type=text] {
 }
 
 
-#button1 {
+#button1, #button2 {
   background-color: black;
   border: none;
   color: white;
