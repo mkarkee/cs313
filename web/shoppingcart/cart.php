@@ -23,7 +23,9 @@
                 }
             ?>
     </table>
+    <div id="buttons">
     <a href="browse.php" id="button1">Continue Shopping  </a>
     <a href="checkout.php">Checkout</a>
+            </div>
 </body>
 </html>
