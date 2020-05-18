@@ -28,7 +28,7 @@
                     echo "</td></tr>";
                 }
            
-				echo "<tr id="total"><td>Total</td>";
+				echo "<tr id='total'><td>Total</td>";
 				echo "<td>";
 				echo $total;
 				echo "</td></tr>";
