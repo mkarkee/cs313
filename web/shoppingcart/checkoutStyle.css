@@ -1,29 +1,4 @@
 
-
-strong {
-    text-shadow: 1px 1px black;
-    transition: transform .5s;
-    cursor: pointer;
-    margin-left: 40px;
-    margin-right: 40px;
-}
-
-strong:hover {
-    transform: scale(1.2);
-}
-
-
-
-input[type=text] {
-    height: 0.3in;
-    padding: 4px;
-    border: 2px solid black;
-    border-radius: 5px;
-    width: 3in;
-    font-size: 0.22in;
-}
-
-
 #button1 {
   background-color: black;
   border: none;
@@ -39,22 +14,10 @@ input[type=text] {
     transform: scale(1.03);
 }
 
-#errorFile {
-    color: red;
-    font-style: italic;
-}
-
 #content {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
     width: 95%;
     margin-top:20px;
-    display: none;
-  }
-  
-  td, th {
-    border: 1px solid #ddd;
-    padding: 8px;
   }
   
 tr:nth-child(even){background-color: #f2f2f2;}
@@ -67,9 +30,3 @@ th {
     background-color: black;
     color: white;
   }
-
-::placeholder {
-    color: rgb(240, 233, 233);
-    font-size: 0.27in;
-    
-}
