@@ -46,3 +46,31 @@ tr:hover {background-color: #ddd;}
     background-color: black;
     color: white;
   }
+  input[id="submit"] {
+    margin-left: 20px;
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px black;
+}
+
+input[id="reset"] {
+    margin-right: 20px;
+    background-color: rgb(53, 53, 233);
+    border: none;
+    color: white;
+    padding: 15px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px black;
+    margin-left: 30px;
+}
