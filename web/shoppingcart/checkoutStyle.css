@@ -27,7 +27,7 @@ input[type=text] {
 }
 
 
-#button1, #button2 {
+#button1 {
   background-color: black;
   border: none;
   color: white;
@@ -40,10 +40,6 @@ input[type=text] {
 #button1:hover {
     background-color: rgb(39, 35, 35);
     transform: scale(1.03);
-}
-
-#buttons {
-    margin-left: 40%;
 }
 
 #errorFile {
