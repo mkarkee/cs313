@@ -3,12 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<link rel="stylesheet" href="checkoutStyle.css">
+    <title>The Watch Shop: Checkout</title>
 </head>
 <body>
+<header>
+        <h1>The Watch Shop</h1>
+ </header>
 
-
-<input type="text" placeholder="First Name" name="first_name" onblur="validFirstName(this)" required>
+<form>
+	<input type="text" placeholder="First Name" name="first_name" onblur="validFirstName(this)" required>
     <span id="firstNameError"></span>
     <br>
     <input type="text" placeholder="Last Name" name="last_name" onblur="validLastName(this)" required>
@@ -18,6 +22,7 @@
     <br>
     <input type="text" placeholder="Phone Numer" name="phone_number" maxlength="12" size="12" onchange="validPhoneNumber(this)" required>
     <span id="phoneError"></span>
+</form>
 
     <br>
     <div>
