@@ -12,7 +12,7 @@
 <body>
     <?php 
         foreach($_SESSION as $product) {
-            echo $product['name'];
+            echo $product[1];
         }
     ?>
 </body>
