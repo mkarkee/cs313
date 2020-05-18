@@ -49,6 +49,7 @@ h1 {
 }
 
 input[id="purchase"] {
+	margin-top: 20px;
     margin-left: 20px;
     background-color: green;
     border: none;
@@ -63,6 +64,7 @@ input[id="purchase"] {
 }
 
 input[id="cancel"] {
+	margin-top: 20px;
     margin-right: 20px;
     background-color: rgb(53, 53, 233);
     border: none;
