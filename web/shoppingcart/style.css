@@ -50,9 +50,9 @@ input[type="submit"] {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 12px;
     border-radius: 8px;
-    box-shadow: 10px 10px 5px black;
+    box-shadow: 5px 5px 2px black;
 }
 
 input[type="reset"] {
@@ -103,17 +103,5 @@ label {
     margin-left: 25px;
 }
 
-#total {
-    border: 0;
-    font-size: 30pt;
-    background-color: rgb(55, 55, 55);
-    border-radius: 0;
-    box-shadow: none;
-    margin-top: 5px;
-    padding: 5px;
-    color: white;
-    
-    
 
-}
 
