@@ -32,7 +32,7 @@
                     <img class="watch" src="images/1.jpg" alt="watch one">
                     <label id="watchOne">199.99</label>
                     <input type="hidden" name="name" value="Watch one">
-                    <input type="hidden" name="price" value="199.99">
+                    <input type="hidden" name="price" value="199.99"><br>
                     <input type="submit" name="addCart" value="Add to Cart">
                 </td>
                 
