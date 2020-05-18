@@ -22,13 +22,14 @@
     <br>
     <input type="text" placeholder="Phone Numer" name="phone_number" maxlength="12" size="12" onchange="validPhoneNumber(this)" required>
     <span id="phoneError"></span>
-</form>
-
-    <br>
+	<br>
     <div>
         <input type="submit" value="Purchase" name="validate" />
         <input type="reset" name="reset" value="Reset">
     </div>
+</form>
+
+    
  
 <footer>
     <script src="script.js"></script>
