@@ -29,6 +29,8 @@
     </div>
 </form>
 
+    <a href="cart.php"> Go back to cart </href>
+
     
  
 <footer>
