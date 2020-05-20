@@ -27,9 +27,11 @@
         <input type="submit" value="Purchase" name="validate" />
         <input type="reset" name="reset" value="Reset">
     </div>
+    <br><br><br>
+    <a href="cart.php"> Go back to cart </href>
 </form>
 
-    <a href="cart.php"> Go back to cart </href>
+    
 
     
  
