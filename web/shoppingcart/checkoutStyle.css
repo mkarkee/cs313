@@ -76,9 +76,14 @@ input[type="reset"] {
 }
 
 input[type="text"] {
-  font-size: 30px;
+  width: 80%;
+  font-size: large;
+  padding: 15px 22px;
+  margin: 10px 5px;
+  box-sizing: border-box;  
 }
 
 form {
 	display: block;
+	text-align: center;
 }
